@@ -3,7 +3,7 @@ import counterReducer from "./redux/counter";
 
 const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    counter: counterReducer, // global state.counter
   },
 });
 
